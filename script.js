@@ -7,3 +7,9 @@ function pokazCzas(){
 
 pokazCzas();
 setInterval(pokazCzas, 1000);
+
+const loader = document.getElementById("loading-screen");
+
+setTimeout(() => {
+    loader.classList.add("hidden");
+}, 500);
